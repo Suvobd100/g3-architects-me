@@ -1,0 +1,419 @@
+/* common area css */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Work+Sans&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* font-family: 'Open Sans', sans-serif; */
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+  background-color: rgba(255, 144, 14, 0.1);
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: aqua; */
+
+}
+
+.nav-list {
+  list-style-type: none;
+  margin-left: 600px;
+  padding-bottom: 10px;
+
+
+}
+
+.nav-list .list-item {
+  display: inline-block;
+  padding: 20px 10px;
+
+}
+
+.navbar a {
+  color: black;
+  text-decoration: none;
+}
+
+.brand-title {
+  font-size: 1.5em;
+  list-style: none;
+  text-decoration: none;
+  color: black;
+
+
+}
+
+/* banner-section */
+
+.main-sectionn {
+  max-width: 950px;
+  left: 50%;
+  /* margin: 0 auto; */
+}
+
+/* primary button styles */
+.btn-1 {
+  /* margin-left: %; */
+  background-color: #FF900E;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 18px 35px;
+  height: 55px;
+  border-radius: 5px;
+}
+
+.banner-section {
+  top: 1100px;
+  background: #FFF8F3;
+  border-radius: 10px;
+  padding: 130px 200px;
+  text-align: center;
+}
+
+.banner-section {
+  width: 50%;
+  margin-left: 400px;
+  margin-top: 10px;
+
+}
+
+.banner-title {
+  justify-items: center;
+}
+
+.banner-picture img {
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* features-section */
+.praent-dv-1 {
+  padding: 15px;
+  position: absolute;
+  top: 135%;
+  left: 20%;
+  /* border: 1px solid black; */
+
+}
+
+.praent-dv-2 {
+
+  padding: 15px;
+  position: absolute;
+  top: 135%;
+  left: 39%;
+  /* border: 1px solid black; */
+
+}
+
+.div-1 {
+  width: 340px;
+  height: 340px;
+  /* background-color: aqua; */
+  margin: 5px;
+
+}
+
+.feature-para {
+  position: absolute;
+  width: 537px;
+  height: 200px;
+  /* border: 1px solid black; */
+  left: 60%;
+  top: 150%;
+  padding: 10px;
+
+}
+
+/* Features-enjoy div styles */
+
+.feature-enjoy-1 {
+  position: absolute;
+  width: 537px;
+  height: 155px;
+
+  left: 15%;
+  top: 235%;
+  padding: 10px;
+  box-shadow: 20px 20px 50px 10px rgb(232, 223, 225);
+
+
+}
+
+.feature-enjoy-2 {
+  position: absolute;
+  width: 537px;
+  height: 160px;
+  left: 17%;
+  top: 258%;
+
+  padding: 10px;
+  box-shadow: 20px 20px 50px 10px rgb(232, 223, 225);
+
+
+
+}
+
+.feature-enjoy-3 {
+  position: absolute;
+  width: 537px;
+  height: 160px;
+  left: 17%;
+  top: 277%;
+  padding: 10px;
+  box-shadow: 20px 20px 50px 10px rgb(232, 223, 225);
+
+}
+
+.feature-enjoy-4 {
+  position: absolute;
+  width: 537px;
+  height: 160px;
+  left: 17%;
+  top: 298%;
+  padding: 10px;
+  box-shadow: 20px 20px 50px 10px rgb(232, 223, 225);
+
+
+}
+
+.feature-enjoy-5 {
+  position: absolute;
+  width: 537px;
+  height: 160px;
+  left: 17%;
+  top: 320%;
+  padding: 10px;
+  box-shadow: 20px 20px 50px 10px rgb(232, 223, 225);
+
+}
+
+.fnpic {
+  position: absolute;
+  left: 50%;
+  top: 235%;
+
+}
+
+/* <!-- button 10 year experience --> */
+
+.btn-2 {
+
+  background-color: #FF900E;
+  color: white;
+  font-weight: 600;
+  font-size: 25px;
+  padding: 11px 70px;
+  height: 150px;
+  border-radius: 10px;
+
+
+}
+
+.btn-position {
+  position: absolute;
+  top: 335%;
+  left: 40%;
+
+}
+
+/* some facts */
+.Some-Facts {
+  position: absolute;
+  width: 537px;
+  height: 160px;
+  left: 15%;
+  top: 350%;
+  padding: 10px;
+  /* box-shadow:20px 20px 50px 10px rgb(232, 223, 225); */
+
+}
+
+/* logo */
+
+.logo-prent {
+  display: flex;
+  position: absolute;
+  top: 380%;
+  left: 18%;
+
+
+}
+/* logo-1 */
+.logo-prent .logo-1 {
+  width: 241px;
+  height: 241px;
+  margin-left: 50px;
+  border: 1px solid #FF900E;
+
+}
+
+.logo-1 img {
+  position: absolute;
+  left: 10%;
+  padding-top: 2%;
+}
+
+.logo-1 h2 {
+  position: absolute;
+  left: 10%;
+  padding-top: 8%;
+}
+
+.logo-1 span {
+  position: absolute;
+  left: 10%;
+  padding-top: 12%;
+}
+/* 2 start */
+.logo-prent .logo-2 {
+  width: 241px;
+  height: 241px;
+  border: 1px solid #FF900E;
+  margin-left: 50px;
+  overflow: hidden;
+
+}
+
+.logo-2 img {
+  position: absolute;
+  padding-left: 7%;
+  padding-top: 2%;
+}
+
+.logo-2 h2 {
+  position: absolute;
+  padding-left: 7%;
+  padding-top: 8%;
+}
+
+.logo-2 span {
+  position: absolute;
+  padding: 5%;
+  padding-top: 12%;
+}
+
+/* 3 */
+
+
+.logo-prent .logo-3 {
+  width: 241px;
+  height: 241px;
+  border: 1px solid #FF900E;
+  margin-left: 50px;
+  overflow: hidden;
+
+}
+
+.logo-3 img {
+  position: absolute;
+  padding-left: 7%;
+  padding-top: 2%;
+}
+
+.logo-3 h2 {
+  position: absolute;
+  padding-left: 9%;
+  padding-top: 7%;
+}
+
+.logo-3 span {
+  position: absolute;
+  padding-left: 9%;
+  padding-top: 12%;
+}
+
+/* 4 */
+
+.logo-prent .logo-4 {
+  width: 241px;
+  height: 241px;
+  border: 1px solid #FF900E;
+  margin-left: 50px;
+  overflow: hidden;
+
+}
+
+.logo-4 img {
+  position: absolute;
+  padding-left: 7%;
+  padding-top: 2%;
+}
+
+.logo-4 h2 {
+  position: absolute;
+  
+  padding-left:8%;
+  padding-top: 8%; 
+}
+
+.logo-4 span {
+  position: absolute;
+ padding-left: 30px;
+  padding-top: 12%;
+}
+/* sponspors list start */
+
+.sponspors{
+  position: absolute;
+  width: 537px;
+  height: 160px;
+  left: 40%;
+  top: 420%;
+  
+}
+
+.sp-heading{
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.sponspors p{
+  text-align: center;
+  font-size: 20px;
+}
+/* sponspors logo content */
+.sp-icon{
+  display: flex;
+
+  position: absolute;
+  
+  left: 15%;
+  top: 450%;
+  padding: 10px;
+ 
+justify-content: space-between;
+  
+}
+
+.sp-icon>div{
+
+  width: 250px;
+  height: 160px;
+  
+}
+
+.footer{
+  background-color:  #FFF4E7;
+  color: black;
+  position: absolute;
+  top: 470%;
+
+  left: 35%;
+}
+
+
+
